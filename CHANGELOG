@@ -1,0 +1,6 @@
+0.02	4 February 2004
+	Changed name to Log::Dispatch::WarnDie because of possible confusion
+	with Log::Log4Perl module.  Spotted by Mike Chilli.
+
+0.01	2 February 2004
+	First version of Log::ForPerl
