@@ -24,7 +24,7 @@ can_ok( 'Log::Dispatch::WarnDie',qw(
 ) );
 
 SKIP : {
-    skip $tests, "Log::Dispatch::Buffer not available" unless $tests > 1;
+    skip "Log::Dispatch::Buffer not available", $tests unless $tests > 1;
 
     my $dispatcher = Log::Dispatch->new;
     isa_ok( $dispatcher,'Log::Dispatch' );
